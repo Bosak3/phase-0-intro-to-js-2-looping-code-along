@@ -35,10 +35,10 @@ function writeCards(names, event){
 
 writeCards(['Adam', 'Brooke', 'Nick', 'JJ'], "birthday");
 
-function countDown(num){
-    while ( num >= 0){
-    console.log(num);
-    num --;
+function countDown(positiveNum){
+    while ( positiveNum >= 0){
+    console.log(positiveNum);
+    positiveNum --;
     }
 }
 
